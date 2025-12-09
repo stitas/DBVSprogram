@@ -11,7 +11,7 @@ import java.sql.Statement;
 import static com.dbvs.Utils.SQL_ERROR_MSG;
 
 public class Nuoma {
-    private Connection conn;
+    private final Connection conn;
 
     public Nuoma(Connection conn) {
         this.conn = conn;

@@ -1,7 +1,5 @@
 package com.dbvs;
 
-import com.dbvs.dto.CarDto;
-import com.dbvs.dto.ClientDto;
 import com.dbvs.dto.RentStatus;
 import com.dbvs.dto.UnfinishedRentsDto;
 import com.dbvs.tables.Automobilis;
@@ -10,7 +8,6 @@ import com.dbvs.tables.Nuoma;
 import com.dbvs.tables.NuomaAutomobilis;
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;

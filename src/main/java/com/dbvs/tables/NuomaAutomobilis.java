@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import static com.dbvs.Utils.SQL_ERROR_MSG;
 
 public class NuomaAutomobilis {
-    private Connection conn;
+    private final Connection conn;
 
     public NuomaAutomobilis(Connection conn) {
         this.conn = conn;
